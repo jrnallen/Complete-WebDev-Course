@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Objetcs</title>
+    </head>    
+    <body>
+        <p>Javascript.</p>
+        <script>
+            var myPhone = {
+                make : "Samsung" , 
+                model : "Galaxy S8" ,
+                warranty : 12 ,
+                color: "black"
+            };
+        window.console.log(myPhone);
+            delete myPhone.warranty;
+            window.console.log(myPhone);
+            
+            var myOtherPhone = myPhone;
+            myOtherPhone.model = "iPhone 8";
+            window.console.log(myOtherPhone);
+        </script>
+    </body>
+
+</html>
